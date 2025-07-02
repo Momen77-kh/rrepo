@@ -9,6 +9,9 @@ class Person:
     def avg1 (self) :
         return f"your avg is {sum(self.degree)/len(self.degree)}"
 
+    @property
+    def ageInDays(self):
+        return f"Hello {self.name} your age in days is : {self.age * 365}"
 
 class person2 (Person):
     def __init__ (self , name , age  , gender ):
@@ -26,3 +29,4 @@ class degree (Person):
 
     def degree1(self):
         return f"your degree is {self.degree}"
+

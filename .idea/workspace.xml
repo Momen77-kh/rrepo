@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad1819b0-2372-4e1a-8efe-1ba1f5d9b1b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pithonfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/pithonfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
       <updated>1751444344054</updated>
       <workItem from="1751444345151" duration="1108000" />
       <workItem from="1751448382222" duration="2654000" />
+      <workItem from="1751458884591" duration="693000" />
     </task>
     <servers />
   </component>
