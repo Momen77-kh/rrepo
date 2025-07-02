@@ -30,3 +30,36 @@ class degree (Person):
     def degree1(self):
         return f"your degree is {self.degree}"
 
+class Peoples:
+    def __init__(self, names):
+        self.names = names
+
+    def loopin(self):
+        result = ""
+        for person in self.names:
+            print(f"Person: {person}")
+            for skill in self.names[person]:
+                level = self.names[person][skill]
+                result += f"{skill.upper()} : {level}\n"
+        return result
+
+names1 = {
+    "Osama": {
+        "Html": "70%",
+        "Css": "80%",
+        "Js": "70%"
+    },
+    "Ahmed": {
+        "Html": "90%",
+        "Css": "80%",
+        "Js": "90%"
+    },
+    "Sayed": {
+        "Html": "70%",
+        "Css": "60%",
+        "Js": "90%"
+    }
+}
+
+peoples1 = Peoples(names1)
+print(peoples1.loopin())
