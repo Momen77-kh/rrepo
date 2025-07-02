@@ -1,2 +1,3 @@
 hi again
-second line
+second line 
+Third line in file2.txt
