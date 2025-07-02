@@ -17,3 +17,12 @@ class person2 (Person):
 
     def person_info(self):
         return f"{self.name} , {self.age} and the gender is {self.gender} "
+
+class degree (Person):
+    def __init__(self, degree , name , age ):
+        super().__init__(name, age)
+        self.degree = degree
+
+
+    def degree1(self):
+        return f"your degree is {self.degree}"
